@@ -1,8 +1,11 @@
 import React from 'react'
+import Nav from '../Nav/Nav'
 
 function Blog() {
   return (
-    <div>Blog</div>
+    <div className='flex_container'>
+        <Nav/>
+      </div>
   )
 }
 

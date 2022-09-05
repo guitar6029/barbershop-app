@@ -1,9 +1,12 @@
 import React from 'react'
+import Nav from '../Nav/Nav';
 import './About.css';
 
 function About() {
   return (
-    <div>About</div>
+    <div className='flex_container'>
+        <Nav/>
+      </div>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import Nav from '../Nav/Nav';
 import './Pricing.css';
 function Pricing() {
   return (
-    <div>Pricing</div>
+    <div className='flex_container'>
+        <Nav/>
+      </div>
   )
 }
 

@@ -1,15 +1,36 @@
-.home{
-    display:flex;
-    flex-direction: column;
+.book_appointment{
+    background-image: url('../../assets/images/photo-1587909209111-5097ee578ec3.jpeg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
-.main_images{
-    margin-top: 5em;
+.book_appointment_items{
+    margin-top: 14em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 20px;
+}
+
+.book_appointment_items > h3 {
+    font-size: 4em;
+}
+
+.book_appointment_items > button {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 2em;
+    font-family: inherit;
+    background: rgb(232, 129, 13);
+    color: #fff;
+    border: none;
+    outline: none;
 }
 
 
@@ -23,3 +44,20 @@
     height: 100%;
     object-fit: cover;
 }
+
+.main_images{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.main_title{
+    margin-top: 1em;
+    font-size: 4em;
+    text-align: center;
+}
+
